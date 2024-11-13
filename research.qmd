@@ -1,0 +1,32 @@
+---
+title: "Research"
+execute: 
+  echo: false
+editor: source
+---
+
+## Publications (in preparation)
+
+Gillen D., Sultzer D., Magana-Ramirez C., Hu T., Chilukuri S., **Jaimes L.**, Kuhlman R., Lin C., & McMahon N. *Neuropsychiatric Symptoms in Down Syndrome and Late-Life Alzheimer’s Disease.*
+
+## Irvine Summer Institute in Biostatistics and Undergraduate Data Science (ISI-BUDS)
+
+June 2024 - August 2024 [6 weeks]
+Irvine, California, United States [On-site]
+
+ISI-BUDS is a six-week paid internship at UC Irvine and is one of the Summer Institutes in Biostatistics (SIBS).
+
+During the 2024 summer, my group and I researched neuropsychiatric symptoms (NPS) in Down Syndrome and late-life Alzheimer’s disease patients, aiming to identify and compare patterns and the longitudinal change in NPS within patients with Down Syndrome and late-life Alzheimer’s disease patients. We applied methods in multiple linear regression and longitudinal data analysis.
+
+Our final presentation is linked here: [Final Presentation](docs/sibs-presentation.pdf)
+
+## Biostatistics and Epidemiology Summer Training Program (BEST)
+
+June 2023 - July 2023 [8 weeks]
+New York, New York, United States [On-site]
+
+BEST is an eight-week paid internship at Columbia University Mailman.
+
+During the 2023 summer, I compared medical cost trajectories between non-Hispanic Black and non-Hispanic White lung cancer patients. These cost trajectories were estimated conditional on survival time, and I applied survival analysis methods and conducted nonparametric testing.
+
+My final presentation is linked here: [Final Poster](docs/best-poster.pdf)
