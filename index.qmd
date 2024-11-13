@@ -1,0 +1,26 @@
+---
+title: "Lidio Jaimes Jr"
+image: images/my-picture.jpg
+about: 
+  template: trestles
+  image-shape: round
+  image-width: 16em
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:lidiojaimesjr404@gmail.com
+    - icon: github
+      text: GitHub
+      href: https://github.com/lidiojaimes
+    - icon: person-check-fill
+      text: LinkedIn
+      href: https://www.linkedin.com/in/lidiojr/
+editor: source
+---
+
+I am a fourth-year statistics student at the University of Georgia and my research interests include:
+
+-   methodologies: survival analysis, longitudinal data analysis, and clinical trial design
+-   application: Alzheimer's disease, oncology, and health disparities.
+
+I am currently applying to graduate school programs for Biostatistics and Statistics.
