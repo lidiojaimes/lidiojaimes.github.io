@@ -15,4 +15,6 @@ about:
       href: https://www.linkedin.com/in/lidiojaimes/
 ---
 
+testing to see if deploy works
+
 I am currently an Sc.M. student at Johns Hopkins studying Biostatistics. I am passionate about applying data analysis to address pressing public health challenges and generate meaningful impact. Thank you for stopping by, please feel free to take a look around my website!
