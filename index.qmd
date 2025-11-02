@@ -1,7 +1,18 @@
 ---
-title: "lidiojaimes.github.io"
+title: "Lidio Jaimes Jr"
+about: 
+  template: jolla
+  image: files-docs/lidiojaimes.png
+  links:
+    - icon: envelope
+      text: Contact
+      href: mailto:lidiojaimesjr404@gmail.com
+    - icon: github
+      text: GitHub
+      href: https://github.com/lidiojaimes
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/lidiojaimes/
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+I am currently an Sc.M. student at Johns Hopkins studying Biostatistics. I am passionate about applying data analysis to address pressing public health challenges and generate meaningful impact. Thank you for stopping by, please feel free to take a look around my website!
