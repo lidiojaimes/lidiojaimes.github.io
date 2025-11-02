@@ -1,6 +1,7 @@
 project:
   type: website
-
+  output-dir: docs
+  
 website:
   title: "Lidio Jaimes Jr"
   favicon: logo.png
