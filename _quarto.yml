@@ -1,12 +1,12 @@
 project:
   type: website
   output-dir: docs
-  
+
 website:
   title: "Lidio Jaimes Jr"
-  favicon: logo.png
+  favicon: files/logo.png
   navbar:
-    logo: logo.png
+    logo: files/logo.png
     left:
       - href: index.qmd
         text: Home

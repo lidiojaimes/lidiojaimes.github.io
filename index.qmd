@@ -2,7 +2,7 @@
 title: "Lidio Jaimes Jr"
 about: 
   template: jolla
-  image: files-docs/lidiojaimes.png
+  image: files/lidiojaimes.png
   links:
     - icon: envelope
       text: Contact
