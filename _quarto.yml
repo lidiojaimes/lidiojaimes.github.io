@@ -4,9 +4,9 @@ project:
 
 website:
   title: "Lidio Jaimes Jr"
-  favicon: files/logo.png
+  favicon: files/ljr-logo.png
   navbar:
-    logo: files/logo.png
+    logo: files/ljr-logo.png
     left:
       - href: index.qmd
         text: Home
