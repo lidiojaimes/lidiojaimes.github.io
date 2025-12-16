@@ -1,5 +1,27 @@
 ---
 title: "Projects"
+website:
+  navbar:
+format:
+  html: 
+    page-layout: full
 ---
 
-I will add my project posters and presentations here soon!
+:::: panel-tabset
+## Stroke Severity Research
+
+This project was conducted in collaboration with the Kinesiology Department at UGA. My team and I analyzed electronic health records from stroke patients within the largest hospital system in Athens, GA, with the goal of helping establish a patient recruitment network to advance UGA-based stroke research.
+
+::: panel-tabset
+## Poster
+
+```{=html}
+<iframe width="100%" height="700" src="files/stroke-poster.png"></iframe>
+```
+
+## Presentation
+
+```{=html}
+<iframe width="100%" height="700" src="files/stroke-presentation.pdf"></iframe>
+```
+:::
