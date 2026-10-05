@@ -9,6 +9,7 @@ body-classes: cv-page
 
 ::: {.page-actions}
 [<i class="bi bi-download"></i> Download 1-page resume (PDF)](files/Jaimes.resume.pdf){.btn .btn-primary download="Jaimes_Resume.pdf"}
+[<i class="bi bi-download"></i> Download full CV (PDF)](files/Jaimes_CV.pdf){.btn .btn-outline-primary download="Jaimes_CV.pdf"}
 [<i class="bi bi-envelope"></i> Email](mailto:lidiojaimesjr404@gmail.com){.btn .btn-outline-primary}
 :::
 
