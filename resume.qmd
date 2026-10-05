@@ -3,8 +3,9 @@ title: "Resume"
 ---
 
 ::: {.page-actions}
-[<i class="bi bi-download"></i> Download PDF](files/Jaimes.resume.pdf){.btn .btn-primary download="Jaimes_Resume.pdf"}
-[<i class="bi bi-journal-text"></i> View full CV](cv.qmd){.btn .btn-outline-primary}
+[<i class="bi bi-download"></i> Download resume (PDF)](files/Jaimes.resume.pdf){.btn .btn-primary download="Jaimes_Resume.pdf"}
+[<i class="bi bi-journal-text"></i> View CV](cv.qmd){.btn .btn-outline-primary}
+[<i class="bi bi-envelope"></i> Email](mailto:lidiojaimesjr404@gmail.com){.btn .btn-outline-primary}
 :::
 
 ```{=html}

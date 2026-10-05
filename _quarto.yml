@@ -5,7 +5,7 @@ project:
 website:
   title: "Lidio Jaimes Jr"
   site-url: https://lidiojaimes.github.io
-  favicon: files/ljr-logoweb.png
+  favicon: files/ljr-logo-clear.png
   navbar:
     logo: files/ljr-logo-clear.png
     left:
