@@ -1,1 +1,140 @@
-/* css styles */
+/* ---------- Tokens ---------- */
+:root {
+  --accent: #1f3a68;
+  --accent-soft: #e9eef7;
+  --ink: #1d232b;
+  --muted: #5d6673;
+  --line: #e3e6ea;
+  --card: #ffffff;
+  --bg-alt: #f7f8fa;
+}
+
+body { color: var(--ink); }
+
+h1, h2, h3, .navbar-title {
+  font-family: "Source Serif 4", Georgia, serif;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+a { color: var(--accent); }
+
+/* Bootstrap button recolor */
+.btn-primary {
+  --bs-btn-bg: var(--accent);
+  --bs-btn-border-color: var(--accent);
+  --bs-btn-hover-bg: #152a4d;
+  --bs-btn-hover-border-color: #152a4d;
+}
+.btn-outline-primary {
+  --bs-btn-color: var(--accent);
+  --bs-btn-border-color: var(--accent);
+  --bs-btn-hover-bg: var(--accent);
+  --bs-btn-hover-border-color: var(--accent);
+}
+.btn { border-radius: 999px; padding: 0.4rem 1rem; font-weight: 500; font-size: 0.95rem; }
+
+.navbar { background-color: #ffffff !important; border-bottom: 1px solid var(--line); }
+.navbar .navbar-title, .navbar .nav-link { color: var(--ink) !important; }
+.navbar .nav-link.active { color: var(--accent) !important; font-weight: 600; }
+
+/* ---------- Home hero ---------- */
+.hero {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 3rem;
+  align-items: start;
+  max-width: 1040px;
+  margin: 2.5rem auto 1rem;
+}
+.hero-photo img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 6px 24px rgba(20, 30, 50, 0.12);
+}
+.hero-text h1.hero-name { font-size: 2.6rem; margin: 0 0 0.25rem; border: none; }
+.hero-tagline {
+  display: block;
+  color: var(--muted);
+  font-size: 1.05rem;
+  margin-bottom: 1.25rem;
+}
+.hero-text p { font-size: 1.05rem; line-height: 1.65; }
+.hero-buttons p { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1.25rem; }
+
+/* ---------- Selected work ---------- */
+.section-block { max-width: 1040px; margin: 3rem auto 2rem; }
+.section-block h2.section-heading { font-size: 1.6rem; border-bottom: none; margin-bottom: 1rem; }
+.card-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; }
+.work-card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 1.25rem 1.25rem 1rem;
+  transition: box-shadow 0.15s ease, transform 0.15s ease;
+}
+.work-card:hover { box-shadow: 0 8px 24px rgba(20, 30, 50, 0.08); transform: translateY(-2px); }
+.work-card h3 { font-size: 1.15rem; margin: 0.25rem 0 0.6rem; }
+.work-card p { font-size: 0.95rem; color: var(--muted); }
+.card-kicker {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--accent);
+}
+
+/* ---------- Shared page bits ---------- */
+.page-actions p { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0.5rem 0 1.75rem; }
+.pdf-embed { width: 100%; height: 700px; border: 1px solid var(--line); border-radius: 8px; }
+.pdf-embed-tall { height: 1000px; }
+.project-meta { color: var(--muted); font-size: 0.95rem; margin-bottom: 0.75rem; }
+
+/* ---------- CV ---------- */
+#quarto-document-content h2 {
+  font-size: 1.35rem;
+  color: var(--accent);
+  border-bottom: 2px solid var(--accent-soft);
+  padding-bottom: 0.35rem;
+  margin-top: 2.25rem;
+}
+.cv-entry {
+  display: grid;
+  grid-template-columns: 9.5rem 1fr;
+  gap: 1.25rem;
+  padding: 0.85rem 0;
+  border-bottom: 1px dashed var(--line);
+}
+.cv-entry:last-of-type { border-bottom: none; }
+.cv-entry > p:first-child { margin: 0; }
+.cv-date {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+.cv-body p { margin-bottom: 0.3rem; }
+.cv-body ul { margin: 0.35rem 0 0; padding-left: 1.1rem; }
+.cv-body li { margin-bottom: 0.25rem; line-height: 1.5; }
+.cv-loc { float: right; color: var(--muted); font-size: 0.9rem; font-style: italic; }
+
+.skills-grid dl { display: grid; grid-template-columns: 9.5rem 1fr; gap: 0.5rem 1.25rem; margin-top: 0.75rem; }
+.skills-grid dt { font-weight: 600; }
+.skills-grid dd { margin: 0; }
+
+/* ---------- Mobile ---------- */
+@media (max-width: 768px) {
+  .hero { grid-template-columns: 1fr; gap: 1.5rem; text-align: left; margin-top: 1.5rem; }
+  .hero-photo { max-width: 180px; }
+  .hero-text h1.hero-name { font-size: 2rem; }
+  .card-grid { grid-template-columns: 1fr; }
+  .cv-entry, .skills-grid dl { grid-template-columns: 1fr; gap: 0.25rem; }
+  .cv-loc { float: none; display: block; }
+  .pdf-embed, .pdf-embed-tall { height: 520px; }
+}
+
+/* CV: keep the reading column comfortable inside the full-width layout */
+.cv-page #quarto-document-content { max-width: 920px; }

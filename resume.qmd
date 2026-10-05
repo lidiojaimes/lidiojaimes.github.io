@@ -1,3 +1,12 @@
+---
+title: "Resume"
+---
+
+::: {.page-actions}
+[<i class="bi bi-download"></i> Download PDF](files/Jaimes.resume.pdf){.btn .btn-primary download="Jaimes_Resume.pdf"}
+[<i class="bi bi-journal-text"></i> View full CV](cv.qmd){.btn .btn-outline-primary}
+:::
+
 ```{=html}
-<iframe width="100%" height="700" src="files/Jaimes.resume.pdf"></iframe>
+<iframe class="pdf-embed pdf-embed-tall" src="files/Jaimes.resume.pdf"></iframe>
 ```

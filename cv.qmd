@@ -1,0 +1,233 @@
+---
+title: "Curriculum Vitae"
+toc: true
+toc-title: "Sections"
+toc-location: left
+page-layout: full
+body-classes: cv-page
+---
+
+::: {.page-actions}
+[<i class="bi bi-download"></i> Download 1-page resume (PDF)](files/Jaimes.resume.pdf){.btn .btn-primary download="Jaimes_Resume.pdf"}
+[<i class="bi bi-envelope"></i> Email](mailto:lidiojaimesjr404@gmail.com){.btn .btn-outline-primary}
+:::
+
+## Education
+
+::: {.cv-entry}
+[Expected May 2027]{.cv-date}
+
+::: {.cv-body}
+**Johns Hopkins University, Bloomberg School of Public Health** [Baltimore, MD]{.cv-loc}\
+*Sc.M. in Biostatistics*
+
+- Relevant coursework: Analysis of Multilevel & Longitudinal Data, Survival Analysis, Causal Inference in Medicine and Public Health, Statistical Computing, Data Science and AI for Public Health in Python
+:::
+:::
+
+::: {.cv-entry}
+[May 2025]{.cv-date}
+
+::: {.cv-body}
+**University of Georgia** [Athens, GA]{.cv-loc}\
+*B.S. in Statistics*
+
+- Relevant coursework: Sampling and Survey Methods, Time Series Analysis, SQL for Business Analytics
+:::
+:::
+
+## Work Experience
+
+::: {.cv-entry}
+[Mar 2026 – Present]{.cv-date}
+
+::: {.cv-body}
+**Johns Hopkins Medicine** [Baltimore, MD]{.cv-loc}\
+*Data Management Assistant*
+
+- Automate recurring operational and research reports across three ongoing cystic fibrosis studies by building and maintaining R pipelines that integrate REDCap APIs
+- Resolve data integrity issues in longitudinal PHI datasets through quality control and root-cause investigation, ensuring accurate study metrics
+- Produce recruitment, retention, and DSMB reports and visualizations for investigators and study teams, translating study data into reproducible metrics for ongoing monitoring and oversight
+:::
+:::
+
+::: {.cv-entry}
+[Jun 2026 – Present]{.cv-date}
+
+::: {.cv-body}
+**Johns Hopkins Bloomberg School of Public Health** [Baltimore, MD]{.cv-loc}\
+*Graduate Research Assistant, Biostatistics & Epidemiology*
+
+- Analyze longitudinal data from 14 rounds of the National Health and Aging Trends Study (NHATS) to evaluate associations between baseline acculturation and cognitive trajectories among older adults
+- Develop methods incorporating complex survey weights to address attrition and mortality in longitudinal NHATS data, assessing potential bias from informative dropout
+:::
+:::
+
+::: {.cv-entry}
+[Oct 2024 – May 2025]{.cv-date}
+
+::: {.cv-body}
+**University of Georgia** [Athens, GA]{.cv-loc}\
+*Biostatistics Research Assistant*
+
+- Built regression and machine learning models on 550 electronic health records to identify predictors of stroke severity using hospital length of stay and discharge destination as proxies
+- Cleaned, validated, and analyzed clinical data in R through exploratory analysis, visualization, and quality control to produce an analysis-ready research dataset
+- Presented statistical reports and visualizations biweekly to a cross-functional biomedical research team, supporting interpretation of findings and patient recruitment
+:::
+:::
+
+::: {.cv-entry}
+[Jun 2024 – Aug 2024]{.cv-date}
+
+::: {.cv-body}
+**University of California, Irvine** [Irvine, CA]{.cv-loc}\
+*Biostatistics Research Assistant*
+
+- Analyzed neuropsychiatric symptoms across 1,274 Down syndrome Alzheimer's visits and 183,097 late-life Alzheimer's visits, identifying longitudinal patterns across cognitive strata
+- Applied multiple linear regression and longitudinal models in R to quantify associations between cognitive status and neuropsychiatric symptom trajectories
+- Translated mathematical models into reproducible code and performed code verification and visualization, contributing to a peer-reviewed paper in *Alzheimer's & Dementia* (2025)
+:::
+:::
+
+::: {.cv-entry}
+[Jun 2023 – Jul 2023]{.cv-date}
+
+::: {.cv-body}
+**Columbia University, Mailman School of Public Health** [New York, NY]{.cv-loc}\
+*Biostatistics Research Assistant*
+
+- Analyzed medical cost trajectories for 62,636 lung cancer patients and 1,478,977 Medicare charges in R using nonparametric testing and survival analysis to identify disparities in healthcare expenditures
+- Presented statistical findings at a research symposium, communicating disparities in longitudinal medical costs to a multidisciplinary audience
+:::
+:::
+
+## Publications
+
+::: {.cv-entry}
+[2025]{.cv-date}
+
+::: {.cv-body}
+Magana-Ramirez, C. M., Gillen, D. L., Hom, C. L., **Jaimes, L., Jr**, Chilukuri, S. S., McMahon, N., Lin, C., Kuhlman, R., Hu, T., Head, E., Lott, I. T., & Sultzer, D. L. Neuropsychiatric symptoms and emerging dementia in people with Down syndrome and older adults. *Alzheimer's & Dementia, 21*(11), e70871. [doi.org/10.1002/alz.70871](https://doi.org/10.1002/alz.70871)
+:::
+:::
+
+## Presentations
+
+::: {.cv-entry}
+[2025]{.cv-date}
+
+::: {.cv-body}
+**Predictors of stroke severity from electronic health records** · Poster and oral presentation\
+*University of Georgia* · [Poster](files/stroke-poster.pdf) · [Slides](files/stroke-presentation.pdf)
+:::
+:::
+
+::: {.cv-entry}
+[2024]{.cv-date}
+
+::: {.cv-body}
+**Neuropsychiatric symptoms in Alzheimer's disease associated with Down syndrome** · Poster and oral presentation\
+*ISI-BUDS program, University of California, Irvine* · [Poster](files/alz-poster.pdf) · [Slides](files/alz-presentation.pdf)
+:::
+:::
+
+::: {.cv-entry}
+[2023]{.cv-date}
+
+::: {.cv-body}
+**Disparities in medical cost trajectories among lung cancer patients** · Poster\
+*BEST program research symposium, Columbia University* · [Poster](files/lc-costs-poster.pdf)
+:::
+:::
+
+## Teaching
+
+::: {.cv-entry}
+[Aug 2026 – May 2027]{.cv-date}
+
+::: {.cv-body}
+**Johns Hopkins Bloomberg School of Public Health, Department of Biostatistics** [Baltimore, MD]{.cv-loc}\
+*Student Teaching Assistant*
+
+- 140.776 Statistical Computing
+- 140.777 Statistical Programming Paradigms and Workflows
+- 140.615 Statistics for Laboratory Scientists I
+- 140.616 Statistics for Laboratory Scientists II
+:::
+:::
+
+## Projects
+
+::: {.cv-entry}
+[Fall 2025]{.cv-date}
+
+::: {.cv-body}
+**[Executive Economics](https://msilva21-jh.shinyapps.io/2-dashboard/)** · *R: tidyverse, Shiny, Quarto dashboard; group project at JHU*
+
+- Scraped and merged presidential approval, labor metrics, and market indicators from web/API sources
+- Built time-series visualizations to analyze approval and economic trends across administrations
+- Developed an interactive dashboard showcasing historical patterns and predictive modeling
+:::
+:::
+
+## Workshops & Training
+
+::: {.cv-entry}
+[Mar 2026]{.cv-date}
+
+::: {.cv-body}
+**Fostering Excellence in Biostatistics Workshop** [Indianapolis, IN]{.cv-loc}\
+*ENAR Spring Meeting, Eastern North American Region of the International Biometric Society*
+:::
+:::
+
+::: {.cv-entry}
+[Mar 2025]{.cv-date}
+
+::: {.cv-body}
+**Fostering Diversity in Biostatistics Workshop** [New Orleans, LA]{.cv-loc}\
+*ENAR Spring Meeting, Eastern North American Region of the International Biometric Society*
+:::
+:::
+
+::: {.cv-entry}
+[Mar 2025]{.cv-date}
+
+::: {.cv-body}
+**13th Annual Mathematical Modeling and Public Health Workshop** [Boston, MA]{.cv-loc}\
+*Center for Communicable Disease Dynamics, Harvard T.H. Chan School of Public Health*
+:::
+:::
+
+## Skills
+
+::: {.skills-grid}
+**Methods**
+: GLMs, Mixed-Effects Models, GEE, Survival Analysis (Cox Regression, Competing Risks), Nonparametric Methods, Multiple Imputation, Complex Survey Analysis, Causal Inference, Time Series Analysis, Machine Learning
+
+**Data Management**
+: REDCap & REDCap API, Clinical & Longitudinal Data, Data Quality Control, Root-Cause Investigation, Reproducible Reporting (DSMB, Recruitment & Retention), Web Scraping & API Data Collection
+
+**Programming**
+: R (tidyverse, tidymodels, ggplot2, Shiny), SAS, Python (pandas, scikit-learn, PyTorch, Streamlit), SQL, Bash/Unix
+
+**Software**
+: Qualtrics, MS Excel, Tableau, Quarto, R Markdown, Git & GitHub, LaTeX
+
+**Languages**
+: English (native), Spanish (native)
+:::
+
+## Other Experience
+
+::: {.cv-entry}
+[May 2016 – Present]{.cv-date}
+
+::: {.cv-body}
+**Jaimes Flooring** [Smyrna, GA]{.cv-loc}\
+*Administrative Assistant*
+
+- Consult with clients in Spanish and English, preparing estimates, quotes, and invoices to ensure accurate and timely billing
+- Coordinate jobs and manage accounts, liaising with vendors and clients to streamline operations and facilitate prompt payments
+:::
+:::

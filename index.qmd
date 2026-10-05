@@ -1,18 +1,68 @@
 ---
-title: "Lidio Jaimes Jr"
-about: 
-  template: jolla
-  image: files/lidiojaimes.png
-  links:
-    - icon: envelope
-      text: Contact
-      href: mailto:lidiojaimesjr404@gmail.com
-    - icon: github
-      text: GitHub
-      href: https://github.com/lidiojaimes
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/lidiojaimes/
+pagetitle: "Lidio Jaimes Jr"
+page-layout: full
 ---
 
-I am currently an Sc.M. student at Johns Hopkins studying Biostatistics. I am passionate about using statistics to drive data-driven decisions and create meaningful impact. Thank you for stopping by, please feel free to take a look around my website!
+::: {.hero}
+::: {.hero-photo}
+![](files/lidiojaimes-web.png){fig-alt="Photo of Lidio Jaimes Jr"}
+:::
+
+::: {.hero-text}
+# Lidio Jaimes Jr {.hero-name}
+
+[Biostatistics Sc.M. -- Johns Hopkins Bloomberg School of Public Health]{.hero-tagline}
+
+I'm a biostatistics master's student at Johns Hopkins Bloomberg School of Public Health, graduating in May 2027. I have a B.S. in Statistics from the University of Georgia.
+
+At Johns Hopkins Medicine, I work on three cystic fibrosis studies, where I build R pipelines to automate study reports and handle quality control on longitudinal patient data. I'm also a graduate research assistant studying cognitive aging in older adults using the National Health and Aging Trends Study. This year, I'm a teaching assistant for three courses in the Department of Biostatistics.
+
+Before Hopkins, I did research at the University of Georgia, UC Irvine, and Columbia on stroke outcomes, Alzheimer's disease in Down syndrome, and lung cancer costs. My work at UC Irvine led to a paper in *Alzheimer's & Dementia*, which I co-authored.
+
+I work mainly in R, Python, SQL, and SAS, and I'm bilingual in English and Spanish. I'm looking for roles in data science, analytics, and statistics.
+
+::: {.hero-buttons}
+[<i class="bi bi-envelope"></i> Email](mailto:lidiojaimesjr404@gmail.com){.btn .btn-primary}
+[<i class="bi bi-github"></i> GitHub](https://github.com/lidiojaimes){.btn .btn-outline-primary}
+[<i class="bi bi-linkedin"></i> LinkedIn](https://www.linkedin.com/in/lidiojaimes/){.btn .btn-outline-primary}
+[<i class="bi bi-file-earmark-pdf"></i> Resume](files/Jaimes.resume.pdf){.btn .btn-outline-primary target="_blank"}
+<!-- [<i class="bi bi-journal-text"></i> CV](cv.qmd){.btn .btn-outline-primary} -->
+:::
+:::
+:::
+
+::: {.section-block}
+## Selected work {.section-heading}
+
+::: {.card-grid}
+::: {.work-card}
+[Alzheimer's & Down syndrome]{.card-kicker}
+
+### Neuropsychiatric symptoms and emerging dementia
+
+Longitudinal analysis of 1,274 Down syndrome and 183,097 late-onset Alzheimer's visits. Co-author on the resulting paper in *Alzheimer's & Dementia* (2025).
+
+[Read more →](research.qmd#nps-in-alzheimers)
+:::
+
+::: {.work-card}
+[Clinical outcomes]{.card-kicker}
+
+### Predictors of stroke severity
+
+Regression and machine learning models on 550 electronic health records, using length of stay and discharge destination as severity proxies.
+
+[Read more →](research.qmd#stroke-severity)
+:::
+
+::: {.work-card}
+[Health economics]{.card-kicker}
+
+### Disparities in lung cancer costs
+
+Survival analysis and nonparametric testing across 62,636 patients and 1.48 million Medicare charges.
+
+[Read more →](research.qmd#lung-cancer-costs)
+:::
+:::
+:::

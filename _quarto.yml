@@ -4,21 +4,40 @@ project:
 
 website:
   title: "Lidio Jaimes Jr"
+  site-url: https://lidiojaimes.github.io
   favicon: files/ljr-logoweb.png
   navbar:
     logo: files/ljr-logoweb.png
     left:
       - href: index.qmd
         text: Home
-      - href: projects.qmd
-        text: Projects
+      - href: research.qmd
+        text: Research
       - href: resume.qmd
         text: Resume
+      - href: cv.qmd
+        text: CV
+        
+    right:
+      - icon: github
+        href: https://github.com/lidiojaimes
+        aria-label: GitHub
+      - icon: linkedin
+        href: https://www.linkedin.com/in/lidiojaimes/
+        aria-label: LinkedIn
+      - icon: envelope
+        href: mailto:lidiojaimesjr404@gmail.com
+        aria-label: Email
+  page-footer:
+    center: "© 2026 Lidio Jaimes Jr · Built with [Quarto](https://quarto.org)"
 
 format:
   html:
     theme: cosmo
     css: styles.css
-    toc: true
-
-
+    toc: false
+    mainfont: "Inter, system-ui, -apple-system, sans-serif"
+    include-in-header:
+      text: |
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:wght@600;700&display=swap" rel="stylesheet">
