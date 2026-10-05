@@ -147,3 +147,4 @@ a { color: var(--accent); }
 
 /* CV: keep the reading column comfortable inside the full-width layout */
 .cv-page #quarto-document-content { max-width: 920px; }
+.research-page #quarto-document-content { max-width: 1040px; }

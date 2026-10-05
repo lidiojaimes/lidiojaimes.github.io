@@ -6,6 +6,8 @@ aliases:
 toc: true
 toc-title: "Projects"
 toc-location: left
+page-layout: full
+body-classes: research-page
 ---
 
 ## Stroke Severity {#stroke-severity}
