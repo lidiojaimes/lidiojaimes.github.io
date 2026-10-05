@@ -5,7 +5,28 @@ aliases:
   - projects.html
 toc: true
 toc-title: "Projects"
+toc-location: left
 ---
+
+## Stroke Severity {#stroke-severity}
+
+::: {.project-meta}
+**University of Georgia · Kinesiology collaboration** · 2024–2025 · R, regression, machine learning
+:::
+
+This project was conducted in collaboration with the Kinesiology Department at UGA. My team and I analyzed electronic health records from stroke patients within the largest hospital system in Athens, GA, with the overall goal of helping establish a patient recruitment network to advance UGA-based stroke research. We investigated how demographic factors and comorbidities influence length of stay and discharge destination, and found that admission stroke severity scores and admission unit were key predictors.
+
+::: panel-tabset
+### Poster
+```{=html}
+<iframe class="pdf-embed" src="files/stroke-poster.pdf"></iframe>
+```
+
+### Presentation
+```{=html}
+<iframe class="pdf-embed" src="files/stroke-presentation.pdf"></iframe>
+```
+:::
 
 ## NPS in Alzheimer's {#nps-in-alzheimers}
 
@@ -31,26 +52,6 @@ This project was conducted at UC Irvine with the ISI-BUDS program. My team and I
 ### Presentation
 ```{=html}
 <iframe class="pdf-embed" src="files/alz-presentation.pdf"></iframe>
-```
-:::
-
-## Stroke Severity {#stroke-severity}
-
-::: {.project-meta}
-**University of Georgia · Kinesiology collaboration** · 2024–2025 · R, regression, machine learning
-:::
-
-This project was conducted in collaboration with the Kinesiology Department at UGA. My team and I analyzed electronic health records from stroke patients within the largest hospital system in Athens, GA, with the overall goal of helping establish a patient recruitment network to advance UGA-based stroke research. We investigated how demographic factors and comorbidities influence length of stay and discharge destination, and found that admission stroke severity scores and admission unit were key predictors.
-
-::: panel-tabset
-### Poster
-```{=html}
-<iframe class="pdf-embed" src="files/stroke-poster.pdf"></iframe>
-```
-
-### Presentation
-```{=html}
-<iframe class="pdf-embed" src="files/stroke-presentation.pdf"></iframe>
 ```
 :::
 

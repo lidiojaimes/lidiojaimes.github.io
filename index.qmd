@@ -5,7 +5,15 @@ page-layout: full
 
 ::: {.hero}
 ::: {.hero-photo}
-![](files/lidiojaimes-web.png){fig-alt="Photo of Lidio Jaimes Jr"}
+![](files/lidiojaimes-square.jpg){fig-alt="Photo of Lidio Jaimes Jr"}
+
+::: {.hero-buttons}
+[<i class="bi bi-envelope"></i> Email](mailto:lidiojaimesjr404@gmail.com){.btn .btn-primary}
+[<i class="bi bi-github"></i> GitHub](https://github.com/lidiojaimes){.btn .btn-outline-primary}
+[<i class="bi bi-linkedin"></i> LinkedIn](https://www.linkedin.com/in/lidiojaimes/){.btn .btn-outline-primary}
+[<i class="bi bi-file-earmark-pdf"></i> Resume](files/Jaimes.resume.pdf){.btn .btn-outline-primary target="_blank"}
+<!-- [<i class="bi bi-journal-text"></i> CV](cv.qmd){.btn .btn-outline-primary} -->
+:::
 :::
 
 ::: {.hero-text}
@@ -21,13 +29,6 @@ Before Hopkins, I did research at the University of Georgia, UC Irvine, and Colu
 
 I work mainly in R, Python, SQL, and SAS, and I'm bilingual in English and Spanish. I'm looking for roles in data science, analytics, and statistics.
 
-::: {.hero-buttons}
-[<i class="bi bi-envelope"></i> Email](mailto:lidiojaimesjr404@gmail.com){.btn .btn-primary}
-[<i class="bi bi-github"></i> GitHub](https://github.com/lidiojaimes){.btn .btn-outline-primary}
-[<i class="bi bi-linkedin"></i> LinkedIn](https://www.linkedin.com/in/lidiojaimes/){.btn .btn-outline-primary}
-[<i class="bi bi-file-earmark-pdf"></i> Resume](files/Jaimes.resume.pdf){.btn .btn-outline-primary target="_blank"}
-<!-- [<i class="bi bi-journal-text"></i> CV](cv.qmd){.btn .btn-outline-primary} -->
-:::
 :::
 :::
 
@@ -36,16 +37,6 @@ I work mainly in R, Python, SQL, and SAS, and I'm bilingual in English and Spani
 
 ::: {.card-grid}
 ::: {.work-card}
-[Alzheimer's & Down syndrome]{.card-kicker}
-
-### Neuropsychiatric symptoms and emerging dementia
-
-Longitudinal analysis of 1,274 Down syndrome and 183,097 late-onset Alzheimer's visits. Co-author on the resulting paper in *Alzheimer's & Dementia* (2025).
-
-[Read more →](research.qmd#nps-in-alzheimers)
-:::
-
-::: {.work-card}
 [Clinical outcomes]{.card-kicker}
 
 ### Predictors of stroke severity
@@ -53,6 +44,16 @@ Longitudinal analysis of 1,274 Down syndrome and 183,097 late-onset Alzheimer's 
 Regression and machine learning models on 550 electronic health records, using length of stay and discharge destination as severity proxies.
 
 [Read more →](research.qmd#stroke-severity)
+:::
+
+::: {.work-card}
+[Alzheimer's & Down syndrome]{.card-kicker}
+
+### Neuropsychiatric symptoms and emerging dementia
+
+Longitudinal analysis of 1,274 Down syndrome and 183,097 late-onset Alzheimer's visits. Co-author on the resulting paper in *Alzheimer's & Dementia* (2025).
+
+[Read more →](research.qmd#nps-in-alzheimers)
 :::
 
 ::: {.work-card}

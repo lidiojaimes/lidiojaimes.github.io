@@ -51,7 +51,7 @@ a { color: var(--accent); }
   width: 100%;
   aspect-ratio: 1 / 1;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 16px;
   box-shadow: 0 6px 24px rgba(20, 30, 50, 0.12);
 }
 .hero-text h1.hero-name { font-size: 2.6rem; margin: 0 0 0.25rem; border: none; }
@@ -62,7 +62,13 @@ a { color: var(--accent); }
   margin-bottom: 1.25rem;
 }
 .hero-text p { font-size: 1.05rem; line-height: 1.65; }
-.hero-buttons p { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1.25rem; }
+.hero-photo .hero-buttons p {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+  margin-top: 2.25rem;
+}
+.hero-photo .hero-buttons .btn { width: 100%; text-align: center; padding-left: 0.5rem; padding-right: 0.5rem; }
 
 /* ---------- Selected work ---------- */
 .section-block { max-width: 1040px; margin: 3rem auto 2rem; }
@@ -128,7 +134,10 @@ a { color: var(--accent); }
 /* ---------- Mobile ---------- */
 @media (max-width: 768px) {
   .hero { grid-template-columns: 1fr; gap: 1.5rem; text-align: left; margin-top: 1.5rem; }
-  .hero-photo { max-width: 180px; }
+  .hero-photo { max-width: 100%; }
+  .hero-photo img { max-width: 180px; }
+  .hero-photo .hero-buttons p { display: flex; flex-wrap: wrap; }
+  .hero-photo .hero-buttons .btn { width: auto; }
   .hero-text h1.hero-name { font-size: 2rem; }
   .card-grid { grid-template-columns: 1fr; }
   .cv-entry, .skills-grid dl { grid-template-columns: 1fr; gap: 0.25rem; }
