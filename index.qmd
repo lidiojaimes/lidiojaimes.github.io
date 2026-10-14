@@ -32,7 +32,9 @@ Before Hopkins, I conducted research at the University of Georgia, UC Irvine, an
 
 ::: {.availability}
 ::: {.callout-note appearance="simple" icon=false}
-**Applying to full-time roles in data science, analytics, and statistics.** I finish coursework in April 2027 and graduate in May 2027. My preferred start date is June 2027, but I'm flexible.
+**Seeking full-time opportunities in data science, analytics, and statistics.** I've completed all required coursework except for one consulting course scheduled from January to March 2027. My second year is primarily dedicated to my thesis research.  
+
+My preferred start date is June 2027, but I'm flexible.
 :::
 :::
 
