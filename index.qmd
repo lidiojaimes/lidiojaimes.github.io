@@ -27,8 +27,14 @@ At Johns Hopkins Medicine, I work on three cystic fibrosis studies, where I buil
 
 Before Hopkins, I did research at the University of Georgia, UC Irvine, and Columbia on stroke outcomes, Alzheimer's disease in Down syndrome, and lung cancer costs, respectively. My work at UC Irvine led to a paper in *Alzheimer's & Dementia*, which I co-authored.
 
-I work mainly in R, Python, SQL, and SAS, and I'm bilingual in English and Spanish. I'm looking for roles in data science, analytics, and statistics.
+I work mainly in R, Python, SQL, and SAS, and I'm bilingual in English and Spanish.
 
+:::
+:::
+
+::: {.availability}
+::: {.callout-note appearance="simple" icon=false}
+**Applying to full-time roles in data science, analytics, and statistics.** I finish coursework in April 2027 and graduate in May 2027. My preferred start date is June 2027, but I'm flexible.
 :::
 :::
 

@@ -70,6 +70,9 @@ a { color: var(--accent); }
 }
 .hero-photo .hero-buttons .btn { width: 100%; text-align: center; padding-left: 0.5rem; padding-right: 0.5rem; }
 
+.availability { max-width: 1040px; margin: 0.5rem auto 0; }
+.availability .callout { margin: 0; }
+
 /* ---------- Selected work ---------- */
 .section-block { max-width: 1040px; margin: 3rem auto 2rem; }
 .section-block h2.section-heading { font-size: 1.6rem; border-bottom: none; margin-bottom: 1rem; }
