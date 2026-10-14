@@ -22,7 +22,7 @@ body-classes: cv-page
 **Johns Hopkins University, Bloomberg School of Public Health** [Baltimore, MD]{.cv-loc}\
 *Sc.M. in Biostatistics*
 
-- Relevant coursework: Analysis of Multilevel & Longitudinal Data, Survival Analysis, Causal Inference in Medicine and Public Health, Statistical Computing, Data Science and AI for Public Health in Python
+- Relevant coursework: Analysis of Multilevel & Longitudinal Data, Survival Analysis, Statistics for Genomics, Causal Inference, Statistical Computing, Data Science and AI for Public Health in Python, Data Management
 :::
 :::
 
@@ -44,7 +44,8 @@ body-classes: cv-page
 
 ::: {.cv-body}
 **Johns Hopkins Medicine** [Baltimore, MD]{.cv-loc}\
-*Data Management Assistant*
+*Data Management Assistant*\
+[PI: [Dr. Kristin Riekert](https://profiles.hopkinsmedicine.org/provider/kristin-riekert/2777568)]{.cv-pi}
 
 - Automate recurring operational and research reports across three ongoing cystic fibrosis studies by building and maintaining R pipelines that integrate REDCap APIs
 - Resolve data integrity issues in longitudinal PHI datasets through quality control and root-cause investigation, ensuring accurate study metrics
@@ -57,7 +58,8 @@ body-classes: cv-page
 
 ::: {.cv-body}
 **Johns Hopkins Bloomberg School of Public Health** [Baltimore, MD]{.cv-loc}\
-*Graduate Research Assistant, Biostatistics & Epidemiology*
+*Graduate Research Assistant, Biostatistics & Epidemiology*\
+[PIs: [Dr. Karen Bandeen-Roche](https://publichealth.jhu.edu/faculty/35/karen-bandeen-roche), [Dr. Pablo Martinez Amezcua](https://publichealth.jhu.edu/faculty/4426/pablo-martinez-amezcua)]{.cv-pi}
 
 - Analyze longitudinal data from 14 rounds of the National Health and Aging Trends Study (NHATS) to evaluate associations between baseline acculturation and cognitive trajectories among older adults
 - Develop methods incorporating complex survey weights to address attrition and mortality in longitudinal NHATS data, assessing potential bias from informative dropout
@@ -69,7 +71,8 @@ body-classes: cv-page
 
 ::: {.cv-body}
 **University of Georgia** [Athens, GA]{.cv-loc}\
-*Biostatistics Research Assistant*
+*Biostatistics Research Assistant*\
+[PIs: [Dr. Lynne Seymour](https://www.stat.uga.edu/directory/people/lynne-seymour), [Dr. Deborah Barany](https://people.coe.uga.edu/deborah-barany/)]{.cv-pi}
 
 - Built regression and machine learning models on 550 electronic health records to identify predictors of stroke severity using hospital length of stay and discharge destination as proxies
 - Cleaned, validated, and analyzed clinical data in R through exploratory analysis, visualization, and quality control to produce an analysis-ready research dataset
@@ -82,7 +85,8 @@ body-classes: cv-page
 
 ::: {.cv-body}
 **University of California, Irvine** [Irvine, CA]{.cv-loc}\
-*Biostatistics Research Assistant*
+*Biostatistics Research Assistant*\
+[PIs: [Dr. Daniel Gillen](https://ics.uci.edu/people/daniel-gillen/), [Dr. David Sultzer](https://medschool.uci.edu/about/leadership-faculty/faculty/dsultzer)]{.cv-pi}
 
 - Analyzed neuropsychiatric symptoms across 1,274 Down syndrome Alzheimer's visits and 183,097 late-life Alzheimer's visits, identifying longitudinal patterns across cognitive strata
 - Applied multiple linear regression and longitudinal models in R to quantify associations between cognitive status and neuropsychiatric symptom trajectories
@@ -95,7 +99,8 @@ body-classes: cv-page
 
 ::: {.cv-body}
 **Columbia University, Mailman School of Public Health** [New York, NY]{.cv-loc}\
-*Biostatistics Research Assistant*
+*Biostatistics Research Assistant*\
+[PI: [Dr. Shikun Wang](https://www.cancer.columbia.edu/profile/shikun-wang-phd)]{.cv-pi}
 
 - Analyzed medical cost trajectories for 62,636 lung cancer patients and 1,478,977 Medicare charges in R using nonparametric testing and survival analysis to identify disparities in healthcare expenditures
 - Presented statistical findings at a research symposium, communicating disparities in longitudinal medical costs to a multidisciplinary audience
@@ -197,6 +202,26 @@ Magana-Ramirez, C. M., Gillen, D. L., Hom, C. L., **Jaimes, L., Jr**, Chilukuri,
 ::: {.cv-body}
 **13th Annual Mathematical Modeling and Public Health Workshop** [Boston, MA]{.cv-loc}\
 *Center for Communicable Disease Dynamics, Harvard T.H. Chan School of Public Health*
+:::
+:::
+
+## Certifications
+
+::: {.cv-entry}
+[Mar 2026]{.cv-date}
+
+::: {.cv-body}
+**Human Subjects Research – Biomedical Researchers** [Valid through Mar 2029]{.cv-loc}\
+*CITI Program*
+:::
+:::
+
+::: {.cv-entry}
+[Mar 2026]{.cv-date}
+
+::: {.cv-body}
+**Information Privacy Security (IPS)**\
+*CITI Program*
 :::
 :::
 
